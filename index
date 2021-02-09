@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <meta charset="utf-8">
+  <title>Depop</title>
+   
+<style>
+</style>
+   
+ </head>
+  
+ <body>
+   
+   <div class="logo">
+     <img src="https://cdn.sigma.software/wp-content/themes/ems3/build/project/images/sigma-software-logo.svg.gzip" alt="logo">
+     <h1>Applicant KYC Form</h1>
+   </div>
+   
+   <p class="desc">Depop</p>
+   
+</body>
+  <script>
+  window.senderCallback = function() {
+    SenderWidget.init({
+      companyId: "i817612834"
+    });
+  }
+</script>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://widget.sender.mobi/build/init.js";
+    fjs.parentNode.insertBefore(js, fjs, 'sender-widget');
+  })(document, 'script');
+</script>
+</html>
